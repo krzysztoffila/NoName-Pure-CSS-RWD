@@ -41,7 +41,7 @@ hr {
   list-style-type: none;
 }
 
-/* HEADER */
+/* SECTION - HEADER */
 .header {
   display: flex;
   flex-direction: column-reverse;
@@ -93,7 +93,7 @@ hr {
   transform: translateX(20px);
   overflow: hidden;
 }
-/* INTRO */
+/* SECTION - INTRO */
 .intro {
   display: flex;
   flex-direction: column;
@@ -120,8 +120,9 @@ hr {
 .intro__circle__text-mobile {
   margin-bottom: 40px;
 }
+/* SECTION - KEY POINTS */
 
-.header-section {
+.key__points__item {
   display: flex;
   gap: 20px;
   padding: 0 20px;
@@ -129,18 +130,18 @@ hr {
   height: 100px;
 }
 
-.mini-header {
+.key__points__header--h2 {
   color: #1c1c1c;
   font-size: 24px;
 }
 
-.text-paragraph {
+.key__points--text {
   color: #585757;
   font-size: 15px;
   margin-left: 20px;
 }
 
-.mini-circle {
+.key__points--star {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,18 +151,13 @@ hr {
   border-radius: 50%;
 }
 
-.image2 {
+.key__points--image {
   margin: 30px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.point {
-  width: 20px;
-  height: 20px;
-  background-color: black;
-}
+/* SECTION - STATS <<DO ZROBIENIA>> */
 
 .diagram {
   display: flex;
