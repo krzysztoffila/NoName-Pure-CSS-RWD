@@ -22,6 +22,12 @@ button {
 hr {
   height: 2px;
 }
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
 /* NAVIGATION */
 .navigation__mobile ul {
   display: flex;
@@ -57,13 +63,8 @@ hr {
   padding-bottom: 20px;
 }
 
-.header__form--text-desktop {
+.header__form__text-desktop {
   display: none;
-}
-
-.header__form--font-style {
-  color: #585757;
-  font-size: 20px;
 }
 
 .header__form input {
@@ -92,7 +93,7 @@ hr {
   transform: translateX(20px);
   overflow: hidden;
 }
-
+/* INTRO */
 .intro {
   display: flex;
   flex-direction: column;
@@ -101,7 +102,7 @@ hr {
   text-align: center;
 }
 
-.circle {
+.intro__circle {
   display: flex;
   margin: 40px 0 25px 0;
   align-items: center;
@@ -112,11 +113,11 @@ hr {
   border-radius: 50%;
 }
 
-.star {
+.intro__circle__star {
   color: #969696;
 }
 
-.text-mobile1 {
+.intro__circle--text-mobile {
   margin-bottom: 40px;
 }
 
