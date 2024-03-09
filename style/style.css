@@ -42,7 +42,7 @@
   .image {
     height: 368px;
     /* width: 100%; */
-    background-image: url("/assets/Vector.svg");
+    background-image: url("/assets/header-image.svg");
     padding: 40px 20px;
     background-repeat: no-repeat;
     background-size: cover;
