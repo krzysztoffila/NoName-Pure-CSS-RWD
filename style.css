@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .font-style {
+  
+    color: #585757;
+    font-size: 20px;
+  
+  }
+  
+  .navigation__mobile ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .navigation__mobile li {
+    list-style-type: none;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+  
+  }
+  
+  .text-desktop {
+    display: none;
+  }
+  
+  .image {
+    height: 368px;
+    /* width: 100%; */
+    background-image: url("/assets/Vector.svg");
+    padding: 40px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    transform: translateX(20px);
+    overflow: hidden;
+  }
+  
+  .header__form {
+    padding: 0 20px;
+  }
+  
+  .header__form h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  
+  .header__form p {
+    font-size: 20px;
+    color: rgb(36, 34, 34);
+    padding-bottom: 20px;
+  }
+  
+  .header__form input {
+    width: 100%;
+    border: 2px solid #585757;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    opacity: 0.5;
+  }
+  
+  
+  
+  button {
+        background-color: #24AFB5;
+        border-radius: 7px;
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        font-size: 20px;
+  }
+  
+  .header__info {
+        color: #969696;
+        padding-top: 20px;
+        opacity: 0.5;
+        font-size: 13px;
+  }
+  hr {
+  
+    height: 2px;
+  }
+  
+  .intro {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  
+  
+  .circle {
+  
+    display: flex;
+    margin: 40px 0 25px 0;
+    align-items: center;
+    justify-content: center;
+    height: 96px;
+    width: 96px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+  
+  }
+  
+  
+  .star {
+  
+    color: #969696;
+  
+  }
+  
+  .text-mobile1 {
+  
+    margin-bottom: 40px;
+  }
+  
+  .header-section {
+  
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: center;
+    height: 100px;
+  
+  }
+  
+  .mini-header {
+  
+    color: #1C1C1C;
+    font-size: 24px;
+  }
+  
+  .text-paragraph {
+  
+    color:  #585757;
+    font-size: 15px;
+    margin-left: 20px;
+  
+  }
+  
+  .mini-circle{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+  
+  }
+  
+  .image2 {
+  
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .point {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+  
+  }
+  
+  .diagram {
+  
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+  
+  }
+  
+  .diagram-image {
+  
+    display: flex;
+  
+    align-items: center;
+    justify-items: center;
+  }
+  .percentages {
+  
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  } 
+  
+  .percentage {
+  
+    width: 50%;
+    
+  
+  }
+  
+  .numbers img{
+    margin: 0 20px;
+  }
+  
+  .numbers {
+  
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .download {
+  
+    margin: 20px 0;
+    text-align: center;
+    color: #585757;
+  }
+  
+  .diagram-paragraph2 {
+  
+    margin: 20px 0;
+    font-size: 13px;
+    color: #969696;
+  
+  }
+  
+  .diagram-paragraph {
+  
+    font-size: 15px;
+    color: #585757;
+  }
+  
+  .features {
+  
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .feature {
+  
+    width: 50%;
+  
+  }
+  
+  
+  .heading h1 {
+    font-size: 46px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .heading p {
+  
+    margin: 0 50px;
+    text-align: center;
+  }
+  
+  .image-features {
+  
+    width: 100%;
+    place-items: center;
+    
+  }
+  
+  .quote {
+  
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .quote-icon {
+  
+    width: 50px;
+    height: 20px;
+    align-self: center;
+  
+  }
+  
+  .quote-icon2 {
+  
+    width: 150px;
+    align-self: center;
+  
+  }
+  
+  .person {
+  
+    font-size: 20px;
+    font-weight:600;
+    color: black;
+  }
+  
+  .designer {
+  
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  
+  a {
+  
+    color: #24AFB5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+  
+    text-decoration: underline;
+    
+  }
+  
+  .dots {
+  
+    width: 50px;
+    align-self: center;
+    
+  }
