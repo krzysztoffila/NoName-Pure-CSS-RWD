@@ -238,7 +238,7 @@ hr {
   place-items: center;
 }
 
-.quote {
+.authors {
   margin: 30px 0;
   text-align: center;
   display: flex;
@@ -246,38 +246,38 @@ hr {
   gap: 30px;
 }
 
-.quote-icon {
+.authors__quote--icon {
   width: 50px;
   height: 20px;
   align-self: center;
 }
 
-.quote-icon2 {
+.authors__company__logo {
   width: 150px;
   align-self: center;
 }
 
-.person {
+.authors__person {
   font-size: 20px;
   font-weight: 600;
   color: black;
 }
 
-.designer {
+.authors__position {
   font-size: 15px;
   font-weight: 400px;
 }
 
-a {
+.authors__link {
   color: #24afb5;
   text-decoration: none;
 }
 
-a:hover {
+.authors__link:hover {
   text-decoration: underline;
 }
 
-.dots {
+.authors__slider {
   width: 50px;
   align-self: center;
 }
