@@ -343,3 +343,42 @@ hr {
 .pricing__box-description p {
   font-size: 13px;
 }
+.popular {
+  border: 2px solid #24afb5;
+  box-shadow: none;
+}
+.pricing__box-packet-price {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.pricing__box-packet {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.pricing__box-packet span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 10px;
+  color: #585757;
+}
+.pricing__box.popular {
+  position: relative;
+}
+.pricing__box-button-main.popular {
+  background-color: #24afb5;
+  color: #fff;
+}
+.pricing__box-popular-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: #24afb5;
+  color: #fff;
+  border-radius: 5px 0px 5px 5px;
+}
