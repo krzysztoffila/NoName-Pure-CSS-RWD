@@ -382,3 +382,24 @@ hr {
   color: #fff;
   border-radius: 5px 0px 5px 5px;
 }
+/* SUBSCRIPTION */
+.subscription__heading p {
+  margin: 20px 0;
+  font-size: 15px;
+  color: #585757;
+  max-width: 340px;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+.subscription__form.header__form {
+  margin: 0 -20px;
+}
+.subscription__button.button-turquise {
+  max-width: 180px;
+  font-size: 20px;
+  height: 53px;
+  text-align: center;
+}
