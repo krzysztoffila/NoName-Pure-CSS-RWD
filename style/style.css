@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-button {
+.button-turquise {
   background-color: #24afb5;
   border-radius: 7px;
   padding: 10px 20px;
@@ -281,4 +281,65 @@ hr {
 .authors__slider {
   width: 50px;
   align-self: center;
+}
+/* PRICING */
+.pricing {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  width: 290px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #585757;
+  margin: 5px;
+}
+.pricing__box-packet-name,
+.pricing__box-packet-price {
+  color: #1c1c1c;
+}
+.pricing__box-packet-name {
+  font-size: 20px;
+}
+.pricing__box-packet-price {
+  font-size: 48px;
+  font-weight: bold;
+}
+.pricing__box-packet,
+.pricing__box-features,
+.pricing__box-button,
+.pricing__box-description {
+  padding: 20px;
+}
+.pricing__box-packet-price {
+  margin: 30px;
+}
+.pricing__box-features p {
+  padding: 5px;
+  font-size: 15px;
+}
+.pricing__box-button-main {
+  border-radius: 7px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  font-size: 20px;
+}
+.pricing__box-features p,
+.pricing__box-description p {
+  color: #969696;
+}
+.pricing__box-description p {
+  font-size: 13px;
 }
