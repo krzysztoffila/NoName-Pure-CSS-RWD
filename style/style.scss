@@ -655,4 +655,11 @@ hr {
       margin: 0 auto;
     }
   }
+
+  .pricing__container {
+    padding: 100px;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-evenly;
+  }
 }
