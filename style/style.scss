@@ -504,3 +504,52 @@ hr {
     justify-content: center;
   }
 }
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+    &__form {
+      width: 50%;
+      padding: 100px;
+
+      h1 {
+        padding: 10px 0;
+      }
+
+      button {
+        margin: 10px 0;
+      }
+
+      &__text-desktop {
+        display: inline-block;
+      }
+
+      &__text-mobile {
+        display: none;
+      }
+    }
+
+    &__image {
+      width: 53%;
+      height: 600px;
+      background-image: url('/assets/header-image.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 100%;
+      overflow: hidden;
+    }
+
+    &__info {
+      font-size: 13px;
+    }
+
+  }
+
+  .header__form-input {
+    width: 75%;
+  }
+}
