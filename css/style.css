@@ -423,14 +423,10 @@ hr {
   text-align: center;
   justify-content: center;
   margin: 40px 0;
+  flex-wrap: wrap;
 }
 
-.footer__links {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-.footer__links ul {
+.footer__links-link-group ul {
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -438,16 +434,16 @@ hr {
   list-style-type: none;
   margin: 20px 0;
 }
-.footer__links ul li {
+.footer__links-link-group ul li {
   margin: 10px;
 }
-.footer__links ul li a {
+.footer__links-link-group ul li a {
   text-decoration: none;
   cursor: pointer;
   font-weight: bold;
   color: #1c1c1c;
 }
-.footer__links ul li a:hover {
+.footer__links-link-group ul li a:hover {
   color: #24afb5;
 }
 
@@ -617,5 +613,14 @@ hr {
   }
   .subscription__button {
     width: 300px;
+  }
+  .footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
