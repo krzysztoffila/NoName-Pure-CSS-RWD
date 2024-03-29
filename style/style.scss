@@ -232,7 +232,7 @@ hr {
 }
 
 .features {
-  h1 {
+  h2 {
     font-size: 46px;
     margin: 20px 0;
     text-align: center;
@@ -628,6 +628,22 @@ hr {
       width: 33.3vw;
       justify-content: center;
       padding: 100px;
+    }
+  }
+
+  .features {
+    padding: 100px 0px 0px 0px;
+
+    p {
+      margin: 40px auto;
+      padding: 40px 0;
+      max-width: 700px;
+    }
+
+    &__container {
+      display: flex;
+      padding: 100px;
+      justify-content: space-between;
     }
   }
 }
