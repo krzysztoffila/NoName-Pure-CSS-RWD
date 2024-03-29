@@ -598,4 +598,24 @@ hr {
     gap: 100px;
     justify-content: space-evenly;
   }
+  .subscription {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .subscription__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscription__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .subscription__button {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

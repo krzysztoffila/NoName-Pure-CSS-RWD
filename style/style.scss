@@ -662,4 +662,33 @@ hr {
     gap: 100px;
     justify-content: space-evenly;
   }
+
+  .subscription {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+
+    &__heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    // text-align: center;
+    &__form {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+
+    &__button {
+      // align-items: center;
+      // justify-content: center;
+      width: 300px;
+
+    }
+  }
 }
