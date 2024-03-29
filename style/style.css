@@ -122,6 +122,12 @@ hr {
   display: none;
 }
 
+.key__points--keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .key__points__item {
   display: flex;
   gap: 20px;
@@ -521,6 +527,23 @@ hr {
     font-size: 20px;
     letter-spacing: 0.2px;
     line-height: 30px;
+  }
+  .key__points {
+    display: flex;
+    padding: 110px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .key__points__items {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .key__points--image img {
+    width: 40vw;
+    overflow: hidden;
   }
 }
 
