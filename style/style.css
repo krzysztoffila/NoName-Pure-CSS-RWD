@@ -545,6 +545,33 @@ hr {
     width: 40vw;
     overflow: hidden;
   }
+  .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+  }
+  .stats__image {
+    width: 33.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .stats__percentages__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .stats__percentage__box {
+    width: calc(50% - 10px);
+  }
+  .stats__informations {
+    display: flex;
+    flex-direction: column;
+    width: 33.3vw;
+    justify-content: center;
+    padding: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
