@@ -1,0 +1,82 @@
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
+.subscription__heading p {
+  margin: 20px 0;
+  font-size: 15px;
+  color: #585757;
+  max-width: 340px;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.subscription__form.header__form {
+  margin: 0 -20px;
+}
+.subscription__form.header__form input {
+  font-size: 20px;
+}
+
+.subscription__button.button-turquise {
+  max-width: 180px;
+  font-size: 20px;
+  height: 53px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscription {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .subscription__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscription__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .subscription__button {
+    width: 300px;
+  }
+}/*# sourceMappingURL=subscription.css.map */

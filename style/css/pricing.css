@@ -1,5 +1,35 @@
-@use 'variables';
-@use 'global';
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
 
 .pricing {
   display: flex;
@@ -28,12 +58,12 @@
 }
 
 .pricing__box-packet-name {
-  color: variables.$color_5;
+  color: #1c1c1c;
   font-size: 20px;
 }
 
 .pricing__box-packet-price {
-  color: variables.$color_5;
+  color: #1c1c1c;
   font-size: 48px;
   font-weight: bold;
   margin: 30px;
@@ -47,25 +77,23 @@
   font-size: 20px;
   text-align: center;
   justify-content: center;
-
-  span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    padding-left: 10px;
-    color: variables.$color_2;
-  }
+}
+.pricing__box-packet span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 10px;
+  color: #585757;
 }
 
 .pricing__box-features {
   padding: 20px;
-
-  p {
-    padding: 5px;
-    font-size: 15px;
-    color: variables.$color_4;
-  }
+}
+.pricing__box-features p {
+  padding: 5px;
+  font-size: 15px;
+  color: #969696;
 }
 
 .pricing__box-button {
@@ -74,17 +102,16 @@
 
 .pricing__box-description {
   padding: 20px;
-
-  p {
-    color: variables.$color_4;
-    font-size: 13px;
-  }
+}
+.pricing__box-description p {
+  color: #969696;
+  font-size: 13px;
 }
 
 .pricing__box-button-main {
   border-radius: 7px;
   padding: 10px 20px;
-  background-color: variables.$background-color_3;
+  background-color: white;
   border: 1px solid #dbdbdb;
   font-size: 20px;
 }
@@ -99,8 +126,8 @@
 }
 
 .pricing__box-button-main.popular {
-  background-color: variables.$background-color_1;
-  color: variables.$color_8;
+  background-color: #24afb5;
+  color: #fff;
 }
 
 .pricing__box-popular-info {
@@ -109,17 +136,16 @@
   right: 0;
   padding: 5px;
   text-align: center;
-  background-color: variables.$background-color_1;
-  color: variables.$color_8;
+  background-color: #24afb5;
+  color: #fff;
   border-radius: 5px 0px 5px 5px;
 }
 
 @media only screen and (min-width: 768px) {
-
   .pricing__container {
     padding: 100px;
     flex-direction: row;
     gap: 100px;
     justify-content: space-evenly;
   }
-}
+}/*# sourceMappingURL=pricing.css.map */

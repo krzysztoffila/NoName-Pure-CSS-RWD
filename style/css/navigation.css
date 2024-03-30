@@ -1,0 +1,43 @@
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
+.navigation__mobile ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.navigation__mobile li {
+  list-style-type: none;
+}/*# sourceMappingURL=navigation.css.map */
