@@ -23,31 +23,31 @@
   .navigation {
     display: flex;
     margin: 0 auto;
-  }
 
-  .navigation ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 100px;
-  }
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 100px;
+    }
 
-  .navigation__mobile--item {
-    display: none;
-  }
+    &__mobile--item {
+      display: none;
+    }
 
-  .navigation__desktop--item {
-    display: inline-block;
-  }
+    &__desktop--item {
+      display: inline-block;
+    }
 
-  a {
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bold;
-    color: variables.$color_5;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bold;
+      color: variables.$color_5;
 
-    &:hover {
-      color: variables.$color_7;
+      &:hover {
+        color: variables.$color_7;
+      }
     }
   }
 }
