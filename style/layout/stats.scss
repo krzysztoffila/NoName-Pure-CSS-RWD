@@ -6,16 +6,17 @@
   flex-direction: column;
   margin: 50px 20px;
 
-  &__diagram--image {
+  &__image {
     display: flex;
-    align-items: center;
-    justify-items: center;
+    justify-content: center;
   }
 
   &__percentages__container {
     margin: 30px 0;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   &__paragraph {
@@ -32,6 +33,10 @@
   &__percentage {
     &__box {
       width: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
     }
 
     &__number {
@@ -51,10 +56,22 @@
   }
 }
 
+@media only screen and (min-width: 872px) {
+  .stats__percentages__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
+  .stats__percentage__box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 20vw;
+  }
+}
 
 @media only screen and (min-width: 768px) {
-
   .stats {
     display: flex;
     flex-direction: row;
@@ -75,7 +92,9 @@
     }
 
     &__percentage__box {
-      width: calc(50% - 10px);
+      display: flex;
+      flex-direction: column;
+      width: 40%;
     }
 
     &__informations {

@@ -46,6 +46,7 @@ hr {
   display: flex;
   flex-direction: row;
   text-align: center;
+  flex-wrap: wrap;
 }
 .features__image {
   width: 100%;
@@ -69,5 +70,9 @@ hr {
     display: flex;
     padding: 100px;
     justify-content: space-between;
+    flex-direction: row;
+  }
+  .feature__box {
+    width: 25%;
   }
 }/*# sourceMappingURL=features.css.map */
