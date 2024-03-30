@@ -38,29 +38,24 @@ hr {
   flex-direction: column;
   gap: 30px;
 }
-
 .authors__quote--icon {
   width: 50px;
   height: 20px;
   align-self: center;
 }
-
 .authors__company__logo {
   width: 150px;
   align-self: center;
 }
-
 .authors__person {
   font-size: 20px;
   font-weight: 600;
   color: black;
 }
-
 .authors__position {
   font-size: 15px;
   font-weight: 400px;
 }
-
 .authors__link {
   color: #24afb5;
   text-decoration: none;
@@ -68,7 +63,6 @@ hr {
 .authors__link:hover {
   text-decoration: underline;
 }
-
 .authors__slider {
   width: 50px;
   align-self: center;

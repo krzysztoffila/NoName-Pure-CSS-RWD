@@ -47,14 +47,13 @@ hr {
   flex-direction: row;
   text-align: center;
 }
-
-.feature__box {
-  width: 50%;
-}
-
 .features__image {
   width: 100%;
   place-items: center;
+}
+
+.feature__box {
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {

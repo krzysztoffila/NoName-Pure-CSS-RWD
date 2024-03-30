@@ -36,7 +36,6 @@ hr {
   flex-direction: column-reverse;
   overflow-x: hidden;
 }
-
 .header__form {
   padding: 0 20px;
 }
@@ -57,18 +56,6 @@ hr {
   border-radius: 7px;
   opacity: 0.5;
 }
-
-.header__form__text-desktop {
-  display: none;
-}
-
-.header__info {
-  color: #969696;
-  padding-top: 20px;
-  opacity: 0.5;
-  font-size: 13px;
-}
-
 .header__image {
   height: 368px;
   background-image: url("/assets/header-image.svg");
@@ -78,6 +65,15 @@ hr {
   background-position: 0 100%;
   transform: translateX(20px);
   overflow: hidden;
+}
+.header__info {
+  color: #969696;
+  padding-top: 20px;
+  opacity: 0.5;
+  font-size: 13px;
+}
+.header .header .header__form__text-desktop {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {

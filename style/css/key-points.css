@@ -36,7 +36,6 @@ hr {
   flex-direction: column;
   justify-content: center;
 }
-
 .key__points__item {
   display: flex;
   gap: 20px;
@@ -44,18 +43,15 @@ hr {
   align-items: center;
   height: 100px;
 }
-
 .key__points__header--h2 {
   color: #1c1c1c;
   font-size: 24px;
 }
-
 .key__points--text {
   color: #585757;
   font-size: 15px;
   margin-left: 20px;
 }
-
 .key__points--star {
   display: flex;
   align-items: center;
@@ -65,7 +61,6 @@ hr {
   background-color: #dbdbdb;
   border-radius: 50%;
 }
-
 .key__points--image {
   margin: 30px 0;
   display: flex;

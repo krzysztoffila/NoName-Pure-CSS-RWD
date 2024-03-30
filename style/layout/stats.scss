@@ -5,49 +5,53 @@
   display: flex;
   flex-direction: column;
   margin: 50px 20px;
-}
 
-.stats__diagram--image {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-
-.stats__percentages__container {
-  margin: 30px 0;
-  display: flex;
-  flex-direction: row;
-}
-
-.stats__percentage__box {
-  width: 50%;
-}
-
-.stats__percentage__number {
-  img {
-    margin: 0 20px;
+  &__diagram--image {
+    display: flex;
+    align-items: center;
+    justify-items: center;
   }
 
-  font-size: 36px;
-  font-weight: 700;
+  &__percentages__container {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__paragraph {
+    font-size: 15px;
+    color: variables.$color_2;
+
+    &--gray {
+      margin: 20px 0;
+      font-size: 13px;
+      color: variables.$color_4;
+    }
+  }
+
+  &__percentage {
+    &__box {
+      width: 50%;
+    }
+
+    &__number {
+      img {
+        margin: 0 20px;
+      }
+
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    &__name {
+      margin: 20px 0;
+      text-align: center;
+      color: variables.$color_2;
+    }
+  }
 }
 
-.stats__percentage__name {
-  margin: 20px 0;
-  text-align: center;
-  color: variables.$color_2;
-}
 
-.stats__paragraph {
-  font-size: 15px;
-  color: variables.$color_2;
-}
-
-.stats__paragraph--gray {
-  margin: 20px 0;
-  font-size: 13px;
-  color: variables.$color_4;
-}
 
 @media only screen and (min-width: 768px) {
 

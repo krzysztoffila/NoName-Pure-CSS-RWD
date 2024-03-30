@@ -1,50 +1,51 @@
 @use '../variables';
 @use '../global';
 
-.key__points--keys {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+.key__points {
+  &--keys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.key__points__item {
-  display: flex;
-  gap: 20px;
-  padding: 0 20px;
-  align-items: center;
-  height: 100px;
-}
+  &__item {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: center;
+    height: 100px;
+  }
 
-.key__points__header--h2 {
-  color: variables.$color_5;
-  font-size: 24px;
-}
+  &__header--h2 {
+    color: variables.$color_5;
+    font-size: 24px;
+  }
 
-.key__points--text {
-  color: variables.$color_2;
-  font-size: 15px;
-  margin-left: 20px;
-}
+  &--text {
+    color: variables.$color_2;
+    font-size: 15px;
+    margin-left: 20px;
+  }
 
-.key__points--star {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-  width: 32px;
-  background-color: variables.$background-color_2;
-  border-radius: 50%;
-}
+  &--star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background-color: variables.$background-color_2;
+    border-radius: 50%;
+  }
 
-.key__points--image {
-  margin: 30px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &--image {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-
   .key {
     &__points {
       display: flex;

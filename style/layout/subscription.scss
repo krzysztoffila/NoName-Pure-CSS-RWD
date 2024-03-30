@@ -1,34 +1,34 @@
 @use '../variables';
 @use '../global';
 
-.subscription__heading {
-  p {
-    margin: 20px 0;
-    font-size: 15px;
-    color: variables.$color_2;
-    max-width: 340px;
-  }
-}
-
 .subscription {
   display: flex;
   flex-direction: column;
   padding: 40px 20px;
-}
 
-.subscription__form.header__form {
-  margin: 0 -20px;
-
-  input {
-    font-size: 20px;
+  &__heading {
+    p {
+      margin: 20px 0;
+      font-size: 15px;
+      color: variables.$color_2;
+      max-width: 340px;
+    }
   }
-}
 
-.subscription__button.button-turquise {
-  max-width: 180px;
-  font-size: 20px;
-  height: 53px;
-  text-align: center;
+  &__form.header__form {
+    margin: 0 -20px;
+
+    input {
+      font-size: 20px;
+    }
+  }
+
+  &__button.button-turquise {
+    max-width: 180px;
+    font-size: 20px;
+    height: 53px;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {

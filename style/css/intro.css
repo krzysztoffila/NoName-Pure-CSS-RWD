@@ -38,7 +38,6 @@ hr {
   justify-content: center;
   text-align: center;
 }
-
 .intro__circle {
   display: flex;
   margin: 40px 0 25px 0;
@@ -49,15 +48,12 @@ hr {
   background-color: #dbdbdb;
   border-radius: 50%;
 }
-
 .intro__circle__star {
   color: #969696;
 }
-
 .intro__circle__text-mobile {
   margin-bottom: 40px;
 }
-
 .intro__circle__text-desktop {
   display: none;
 }

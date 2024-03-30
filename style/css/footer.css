@@ -39,7 +39,6 @@ hr {
   margin: 40px 0;
   flex-wrap: wrap;
 }
-
 .footer__links-link-group ul {
   display: flex;
   text-align: center;
@@ -60,7 +59,6 @@ hr {
 .footer__links-link-group ul li a:hover {
   color: #24afb5;
 }
-
 .footer__copyright {
   display: flex;
   justify-content: center;
@@ -71,7 +69,6 @@ hr {
   color: #969696;
   font-weight: lighter;
 }
-
 .footer__social-media {
   font-size: 22px;
   margin-top: 30px;

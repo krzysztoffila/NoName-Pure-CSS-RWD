@@ -7,30 +7,31 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  &__circle {
+    display: flex;
+    margin: 40px 0 25px 0;
+    align-items: center;
+    justify-content: center;
+    height: 96px;
+    width: 96px;
+    background-color: variables.$background-color_2;
+    border-radius: 50%;
+
+    &__star {
+      color: variables.$color_4;
+    }
+
+    &__text-mobile {
+      margin-bottom: 40px;
+    }
+
+    &__text-desktop {
+      display: none;
+    }
+  }
 }
 
-.intro__circle {
-  display: flex;
-  margin: 40px 0 25px 0;
-  align-items: center;
-  justify-content: center;
-  height: 96px;
-  width: 96px;
-  background-color: variables.$background-color_2;
-  border-radius: 50%;
-}
-
-.intro__circle__star {
-  color: variables.$color_4;
-}
-
-.intro__circle__text-mobile {
-  margin-bottom: 40px;
-}
-
-.intro__circle__text-desktop {
-  display: none;
-}
 
 @media only screen and (min-width: 768px) {
   .intro {
