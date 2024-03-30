@@ -1,0 +1,16 @@
+@use 'variables';
+@use 'global';
+
+.navigation__mobile {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  li {
+    list-style-type: none;
+  }
+}

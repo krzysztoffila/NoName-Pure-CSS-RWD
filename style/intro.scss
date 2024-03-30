@@ -1,0 +1,52 @@
+@use 'variables';
+@use 'global';
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro__circle {
+  display: flex;
+  margin: 40px 0 25px 0;
+  align-items: center;
+  justify-content: center;
+  height: 96px;
+  width: 96px;
+  background-color: variables.$background-color_2;
+  border-radius: 50%;
+}
+
+.intro__circle__star {
+  color: variables.$color_4;
+}
+
+.intro__circle__text-mobile {
+  margin-bottom: 40px;
+}
+
+.intro__circle__text-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    margin: 50px 0;
+
+    &__circle__text-mobile {
+      display: none;
+    }
+
+    &__circle__text-desktop {
+      display: block;
+      width: 50%;
+      margin: 80px;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+      line-height: 30px;
+    }
+  }
+}

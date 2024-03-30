@@ -1,0 +1,60 @@
+@use 'variables';
+@use 'global';
+
+.subscription__heading {
+  p {
+    margin: 20px 0;
+    font-size: 15px;
+    color: variables.$color_2;
+    max-width: 340px;
+  }
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.subscription__form.header__form {
+  margin: 0 -20px;
+
+  input {
+    font-size: 20px;
+  }
+}
+
+.subscription__button.button-turquise {
+  max-width: 180px;
+  font-size: 20px;
+  height: 53px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .subscription {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+
+    &__heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+
+    &__button {
+      width: 300px;
+    }
+  }
+}

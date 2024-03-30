@@ -1,0 +1,80 @@
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro__circle {
+  display: flex;
+  margin: 40px 0 25px 0;
+  align-items: center;
+  justify-content: center;
+  height: 96px;
+  width: 96px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+}
+
+.intro__circle__star {
+  color: #969696;
+}
+
+.intro__circle__text-mobile {
+  margin-bottom: 40px;
+}
+
+.intro__circle__text-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    margin: 50px 0;
+  }
+  .intro__circle__text-mobile {
+    display: none;
+  }
+  .intro__circle__text-desktop {
+    display: block;
+    width: 50%;
+    margin: 80px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=intro.css.map */

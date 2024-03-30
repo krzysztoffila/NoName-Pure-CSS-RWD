@@ -1,0 +1,85 @@
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
+.authors {
+  margin: 30px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.authors__quote--icon {
+  width: 50px;
+  height: 20px;
+  align-self: center;
+}
+
+.authors__company__logo {
+  width: 150px;
+  align-self: center;
+}
+
+.authors__person {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.authors__position {
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+.authors__link {
+  color: #24afb5;
+  text-decoration: none;
+}
+.authors__link:hover {
+  text-decoration: underline;
+}
+
+.authors__slider {
+  width: 50px;
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .authors {
+    padding: 100px 0;
+  }
+  .authors p {
+    width: 50vw;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=authors.css.map */

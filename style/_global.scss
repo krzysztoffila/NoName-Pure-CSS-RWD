@@ -1,0 +1,34 @@
+@use 'variables';
+
+:root {
+  --tblr-font-sans-serif: 'Inter';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$font-family_1;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: variables.$background-color_1;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: variables.$color_1;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: variables.$color_2;
+  font-size: 20px;
+}

@@ -1,0 +1,125 @@
+@use 'variables';
+@use 'global';
+
+.pricing {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  width: 290px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #585757;
+  margin: 5px;
+}
+
+.pricing__box-packet-name {
+  color: variables.$color_5;
+  font-size: 20px;
+}
+
+.pricing__box-packet-price {
+  color: variables.$color_5;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.pricing__box-packet {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 10px;
+    color: variables.$color_2;
+  }
+}
+
+.pricing__box-features {
+  padding: 20px;
+
+  p {
+    padding: 5px;
+    font-size: 15px;
+    color: variables.$color_4;
+  }
+}
+
+.pricing__box-button {
+  padding: 20px;
+}
+
+.pricing__box-description {
+  padding: 20px;
+
+  p {
+    color: variables.$color_4;
+    font-size: 13px;
+  }
+}
+
+.pricing__box-button-main {
+  border-radius: 7px;
+  padding: 10px 20px;
+  background-color: variables.$background-color_3;
+  border: 1px solid #dbdbdb;
+  font-size: 20px;
+}
+
+.popular {
+  border: 2px solid #24afb5;
+  box-shadow: none;
+}
+
+.pricing__box.popular {
+  position: relative;
+}
+
+.pricing__box-button-main.popular {
+  background-color: variables.$background-color_1;
+  color: variables.$color_8;
+}
+
+.pricing__box-popular-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: variables.$background-color_1;
+  color: variables.$color_8;
+  border-radius: 5px 0px 5px 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .pricing__container {
+    padding: 100px;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-evenly;
+  }
+}

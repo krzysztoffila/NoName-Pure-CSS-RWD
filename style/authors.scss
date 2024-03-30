@@ -1,0 +1,57 @@
+@use 'variables';
+@use 'global';
+
+.authors {
+  margin: 30px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.authors__quote--icon {
+  width: 50px;
+  height: 20px;
+  align-self: center;
+}
+
+.authors__company__logo {
+  width: 150px;
+  align-self: center;
+}
+
+.authors__person {
+  font-size: 20px;
+  font-weight: 600;
+  color: variables.$color_6;
+}
+
+.authors__position {
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+.authors__link {
+  color: variables.$color_7;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.authors__slider {
+  width: 50px;
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .authors {
+    padding: 100px 0;
+
+    p {
+      width: 50vw;
+      margin: 0 auto;
+    }
+  }
+}

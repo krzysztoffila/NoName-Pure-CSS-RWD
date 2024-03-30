@@ -1,0 +1,94 @@
+:root {
+  --tblr-font-sans-serif: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.button-turquise {
+  background-color: #24afb5;
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+}
+
+.font-style {
+  color: #585757;
+  font-size: 20px;
+}
+
+.key__points--keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.key__points__item {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+  align-items: center;
+  height: 100px;
+}
+
+.key__points__header--h2 {
+  color: #1c1c1c;
+  font-size: 24px;
+}
+
+.key__points--text {
+  color: #585757;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.key__points--star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+}
+
+.key__points--image {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .key__points {
+    display: flex;
+    padding: 110px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .key__points__items {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .key__points--image img {
+    width: 40vw;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=key-points.css.map */
