@@ -31,13 +31,44 @@ hr {
   font-size: 20px;
 }
 
-.navigation__mobile ul {
+.navigation ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   width: 100%;
 }
-.navigation__mobile li {
+.navigation li {
   list-style-type: none;
+}
+.navigation__desktop--item {
+  display: none;
+}
+
+@media only screen and (min-width: 996px) {
+  .navigation {
+    display: flex;
+    margin: 0 auto;
+  }
+  .navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+  }
+  .navigation__mobile--item {
+    display: none;
+  }
+  .navigation__desktop--item {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  a:hover {
+    color: #24afb5;
+  }
 }/*# sourceMappingURL=navigation.css.map */

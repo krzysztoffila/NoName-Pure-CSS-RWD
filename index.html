@@ -10,15 +10,44 @@
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 <body>
-  <nav class="navigation__mobile">
+  <nav class="navigation">
     <ul>
-      <li>
+      <li class="navigation__mobile--item">
         <img src="./assets/hamburger-menu.svg" />
       </li>
+      <li>
+        <ul class="navigation__desktop--group">
+          <li class="navigation__desktop--item">
+            <a href="#">First Link</a>
+          </li>
+          <li class="navigation__desktop--item">
+            <a href="#">Second Link</a>
+          </li>
+          <li class="navigation__desktop--item">
+            <a href="#">Third Link</a>
+          </li>
+        </ul>
+      </li>
+
       <li>
         <img src="./assets/logo.png" alt="" />
       </li>
       <li>
+        <ul class="navigation__desktop--group">
+          <li class="navigation__desktop--item">
+            <a href="#">Fourth Link</a>
+          </li>
+          <li class="navigation__desktop--item">
+            <a href="#">Fifth Link</a>
+          </li>
+          <li class="navigation__desktop--item">
+            <a href="#">Sixth Link</a>
+          </li>
+        </ul>
+      </li>
+
+
+      <li class="navigation__mobile--item">
         <img src="./assets/search-icon.svg" alt="" />
       </li>
     </ul>

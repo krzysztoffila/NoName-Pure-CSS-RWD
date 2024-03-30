@@ -83,7 +83,7 @@ hr {
     margin-top: 50px;
   }
   .header__form {
-    width: 50%;
+    width: 53%;
     padding: 100px;
   }
   .header__form h1 {
@@ -102,7 +102,7 @@ hr {
     width: 75%;
   }
   .header__image {
-    width: 53%;
+    width: 47%;
     height: 600px;
     background-image: url("/assets/header-image.svg");
     background-repeat: no-repeat;
