@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RWD</title>
+  <title>NoName RWD</title>
   <link rel="stylesheet" href="style/style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -18,13 +18,13 @@
       <li>
         <ul class="navigation__desktop--group">
           <li class="navigation__desktop--item">
-            <a href="#">First Link</a>
+            <a href="#intro" class="intro--link">Intro</a>
           </li>
           <li class="navigation__desktop--item">
-            <a href="#">Second Link</a>
+            <a href="#key__points" class="key__points--link">Key Points</a>
           </li>
           <li class="navigation__desktop--item">
-            <a href="#">Third Link</a>
+            <a href="#stats" class="stats--link">Stats</a>
           </li>
         </ul>
       </li>
@@ -35,13 +35,13 @@
       <li>
         <ul class="navigation__desktop--group">
           <li class="navigation__desktop--item">
-            <a href="#">Fourth Link</a>
+            <a href="#features" class="features--link">Features</a>
           </li>
           <li class="navigation__desktop--item">
-            <a href="#">Fifth Link</a>
+            <a href="#authors" class="authors--link">Authors</a>
           </li>
           <li class="navigation__desktop--item">
-            <a href="#">Sixth Link</a>
+            <a href="#pricing" class="pricing--link">Pricing</a>
           </li>
         </ul>
       </li>
@@ -78,7 +78,7 @@
 
   <hr />
 
-  <section class="intro">
+  <section class="intro" id="intro">
     <div class="intro__circle">
       <img class="intro__circle__star" src="/assets/star.svg" />
     </div>
@@ -98,7 +98,7 @@
 
   <hr />
 
-  <section class="key__points">
+  <section class="key__points" id="key__points">
     <div class="key__points__items">
       <div class="key__points__item">
         <div class="key__points--star">
@@ -137,7 +137,7 @@
 
   <hr />
 
-  <section class="stats">
+  <section class="stats" id="stats">
     <div class="stats__image">
       <img class="stats__diagram--image" src="assets/diagram.svg" />
     </div>
@@ -175,7 +175,7 @@
 
   <hr />
 
-  <section class="features">
+  <section class="features" id="features">
     <h2>Short Heading</h2>
     <p class="font-style">
       Each and every one of us has that moment when we are suddenly stunned when we come face to face with the enormity
@@ -199,7 +199,7 @@
   </section>
   <hr />
 
-  <section class="authors">
+  <section class="authors" id="authors">
     <img class="authors__quote--icon" src="assets/semicolon-icon.svg" />
     <p class="font-style">
       There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun. The truth is the
@@ -215,7 +215,7 @@
 
   <hr />
 
-  <section class="pricing">
+  <section class="pricing" id="pricing">
     <div class="pricing__container">
       <div class="pricing__box">
         <div class="pricing__box-packet">
@@ -324,6 +324,7 @@
       </ul>
     </div>
   </footer>
+  <script src="./script.js" defer></script>
 </body>
 
 </html>
